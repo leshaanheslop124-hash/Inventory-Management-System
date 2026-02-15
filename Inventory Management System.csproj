@@ -46,14 +46,56 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="CreateAccountPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CreateAccountPage.Designer.cs">
+      <DependentUpon>CreateAccountPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashbored.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashbored.Designer.cs">
+      <DependentUpon>Dashbored.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Form.Designer.cs">
+      <DependentUpon>Login Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products Page.Designer.cs">
+      <DependentUpon>Products Page.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sales Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales Page.Designer.cs">
+      <DependentUpon>Sales Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings Page.Designer.cs">
+      <DependentUpon>Settings Page.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CreateAccountPage.resx">
+      <DependentUpon>CreateAccountPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashbored.resx">
+      <DependentUpon>Dashbored.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Form.resx">
+      <DependentUpon>Login Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products Page.resx">
+      <DependentUpon>Products Page.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +105,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Sales Page.resx">
+      <DependentUpon>Sales Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings Page.resx">
+      <DependentUpon>Settings Page.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
