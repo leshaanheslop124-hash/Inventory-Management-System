@@ -6,9 +6,9 @@ using System.Windows.Forms;
 
 namespace Inventory_Management_System
 {
-    public partial class Form1 : Form  // your login form class
+    public partial class Form1 : Form 
     {
-        // SQL connection string
+        // My SQL connection string
         string connectionString = @"Server=DESKTOP-KFIMAUJ;Database=InventoryDB;Trusted_Connection=True;";
 
         public Form1()

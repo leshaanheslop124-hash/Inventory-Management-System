@@ -8,7 +8,7 @@ namespace Inventory_Management_System
 
     public partial class CreateAccountPage : Form
     {
-        // SAME connection style as your Products page
+        // My connection string
         string connectionString =
             @"Server=DESKTOP-KFIMAUJ;Database=InventoryDB;Trusted_Connection=True;";
 
@@ -35,7 +35,7 @@ namespace Inventory_Management_System
             string password = textBox_PASSWORD.Text;
             string confirmPassword = textBox_CONFIRM_PASSWORD.Text;
 
-            // 1️⃣ Basic validation
+            // Basic validation
             if (username == "" || password == "" || confirmPassword == "")
             {
                 MessageBox.Show("Please fill in all fields.");
@@ -52,7 +52,7 @@ namespace Inventory_Management_System
             {
                 con.Open();
 
-                // 2️⃣ Check if username already exists
+                // Checks if username already exists
                 string checkQuery = "SELECT COUNT(*) FROM Users WHERE Username = @username";
                 using (SqlCommand checkCmd = new SqlCommand(checkQuery, con))
                 {
@@ -66,7 +66,7 @@ namespace Inventory_Management_System
                     }
                 }
 
-                // 3️⃣ Insert new user
+                // Inserts new user
                 string insertQuery =
                     "INSERT INTO Users (Username, Password) VALUES (@username, @password)";
 
@@ -81,7 +81,7 @@ namespace Inventory_Management_System
 
             MessageBox.Show("✅ Account created successfully!");
 
-            // 4️⃣ Go back to login
+            // Go back to login
             Form1 loginForm = new Form1();
             loginForm.Show();
             this.Hide();
@@ -93,7 +93,7 @@ namespace Inventory_Management_System
             loginForm.Show();
             this.Hide();
         }
-
+       // Exits the Application
         private void btnExitApp_Click(object sender, EventArgs e)
         {
             Application.Exit();

@@ -9,6 +9,7 @@ namespace Inventory_Management_System
 {
     public partial class Products_Page : Form
     {
+        // My connection string
         private string connectionString =
             @"Server=DESKTOP-KFIMAUJ;Database=InventoryDB;Trusted_Connection=True;";
 
