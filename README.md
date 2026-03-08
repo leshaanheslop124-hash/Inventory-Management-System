@@ -32,6 +32,16 @@ The project focuses primarily on stability, reliability, and structured code des
 3. Update the database connection string
 4. Run the project
 
+## Screenshots
+-Adding a Product
+-All Settings Page Working
+-Create Account Page
+-Login Page
+-Processing Sales Page
+-Sales Option Page
+-Sales Page Working
+-Stock Warning Working On Product Page
+
 ## Author
 
 Leshaan Triston Heslop
