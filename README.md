@@ -33,14 +33,14 @@ The project focuses primarily on stability, reliability, and structured code des
 4. Run the project
 
 ## Screenshots
--Adding a Product
--All Settings Page Working
--Create Account Page
--Login Page
--Processing Sales Page
--Sales Option Page
--Sales Page Working
--Stock Warning Working On Product Page
+1. Adding a Product
+2. All Settings Page Working
+3. Create Account Page
+4. Login Page
+5. Processing Sales Page
+6. Sales Option Page
+7. Sales Page Working
+8. Stock Warning Working On Product Page
 
 ## Author
 
